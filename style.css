@@ -24,3 +24,9 @@ p {
 .thirdHeader {
     color: #1a547e;
 }
+
+main {
+    margin: 35px auto;
+    width: 100%;
+    max-width: 700px;
+}
