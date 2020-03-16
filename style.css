@@ -1,20 +1,26 @@
 body {
-    background-color: #cccccc;
+    background-color: #fefefe;
+    color: #333;
 }
 
 .mainHeader {
     color: brown;
 }
 
-.sectionHeader {
-    color: rgb(26, 26, 109);
-    font-size: 66px;
+.sectionHeader,
+.diaryHeader {
+    color: #1460aa;
 }
 
 p {
     color: darkblue;
 }
 
-#pamietniczek {
-    background-color: antiquewhite;
+.link {
+    color: #00381c;
+    font-weight: bold;
+}
+
+.thirdHeader {
+    color: #1a547e;
 }
