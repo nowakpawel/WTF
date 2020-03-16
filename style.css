@@ -1,0 +1,16 @@
+body {
+    background-color: #cccccc;
+}
+
+.mainHeader {
+    color: brown;
+}
+
+.sectionHeader {
+    color: rgb(26, 26, 109);
+    font-size: 66px;
+}
+
+p {
+    color: darkblue;
+}
