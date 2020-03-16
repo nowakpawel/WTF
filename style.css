@@ -26,6 +26,7 @@ p {
 }
 
 .about {
+    margin: 35px auto;
     width: 100%;
     max-width: 700px;
 }
