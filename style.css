@@ -21,6 +21,10 @@ p {
     font-weight: bold;
 }
 
+.about {
+    position: relative;
+}
+
 .thirdHeader {
     color: #1a547e;
 }
@@ -29,4 +33,29 @@ main {
     margin: 35px auto;
     width: 100%;
     max-width: 700px;
+}
+
+.box,
+.boxtest {
+    width: 100px;
+    height: 100px;
+    background: yellowgreen;
+    padding: 10px;
+    border: 10px solid red;
+    box-sizing: border-box;
+    position: absolute;
+    top: 10px;
+    right: 50%;
+}
+
+.box {
+    z-index: 4;
+    position: fixed;
+}
+
+.boxtest {
+    top: 30px;
+    background-color: lightblue;
+    color: #000000;
+    right: 45%;
 }
