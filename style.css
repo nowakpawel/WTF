@@ -22,7 +22,7 @@ p {
 }
 
 .about {
-    position: relative;
+    /* position: relative; */
 }
 
 .thirdHeader {
@@ -33,12 +33,26 @@ main {
     margin: 35px auto;
     width: 100%;
     max-width: 700px;
+    padding-top: 50px;
+}
+
+.navigation {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 16px;
+    background: #97c026;
+    /* border: 1px solid black; */
 }
 
 .top_link {
     position: fixed;
     bottom: 10px;
     right: 10px;
+    color: #00381c;
+    text-decoration: none;
 }
 
 
