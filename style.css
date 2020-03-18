@@ -16,11 +16,6 @@ p {
     color: darkblue;
 }
 
-.navigation__link {
-    color: #00381c;
-    font-weight: bold;
-}
-
 .thirdHeader {
     color: #1a547e;
 }
@@ -32,7 +27,7 @@ main {
     padding-top: 50px;
 }
 
-.navigation {
+.site-header {
     position: fixed;
     width: 100%;
     top: 0;
@@ -40,6 +35,22 @@ main {
     box-sizing: border-box;
     padding: 16px;
     background: #ffffff;
+}
+
+.navigation {}
+
+.navigation__list {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation__item {
+    display: inline;
+}
+
+.navigation__link {
+    color: #00381c;
+    font-weight: bold;
 }
 
 .top_link {
