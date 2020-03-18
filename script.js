@@ -1,8 +1,5 @@
-//alert('Dupa');
-const name = 'Pawel';
-const age = 33;
+const bemParagrapf = document.querySelector('.about__paragraph-test');
+console.log(bemParagrapf.innerHTML);
 
-console.log(name);
-console.log(age);
-
-console.log(`Cześć! Nazywam się ${name} i mam ${age} lat`);
+bemParagrapf.innerHTML = 'Jakiś nowy tekst';
+console.log(bemParagrapf.innerHTML);
